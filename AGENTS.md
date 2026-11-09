@@ -4,7 +4,7 @@ Guide for coding agents and contributors working in this repository.
 
 ## What this repository implements
 
-A replication of selected experiments from Peiyun Deng and Shunzhi Pang,
+A replication of six experiments from Peiyun Deng and Shunzhi Pang,
 "Correlation Ambiguity, Diversification Fragility, and Insurance Pricing"
 (2026): the insurer's conditional financial-investment problem (Sec. 3), the
 competitive insurance equilibrium under correlation ambiguity (Sec. 4), and

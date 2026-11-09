@@ -51,7 +51,8 @@ EXP1_PANEL_END = "2025-12-31"
 EXP1_MARKET_PROXY_TICKER = "SPY"
 
 # Synthetic insurer panel (used only because SNL statutory data cannot be
-# retrieved through the permitted data sources; not a paper value).
+# obtained from the market-data sources used in this repository; not a
+# paper value).
 EXP1_SYN_N_INSURERS = 60  # cross-sectional size, not specified in the paper
 EXP1_SYN_SEED = 20261109
 

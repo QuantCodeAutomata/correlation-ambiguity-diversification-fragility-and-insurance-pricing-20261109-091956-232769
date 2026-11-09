@@ -27,9 +27,9 @@ def benchmark() -> Primitives:
 
 
 def test_thresholds_match_benchmark_worked_example() -> None:
-    """Implementation notes for exp_3 work out the benchmark thresholds to
-    approximately -0.912 (full-underwriting), 0.3825 (pure-underwriting) and
-    5.04 (zero-underwriting, Sec. 5.2)."""
+    """At the Sec. 5.1 benchmark parameters, the regime thresholds of
+    Theorem 2 work out to approximately -0.912 (full-underwriting), 0.3825
+    (pure-underwriting) and 5.04 (zero-underwriting, Sec. 5.2)."""
     p = benchmark()
     assert full_underwriting_threshold(p) == pytest.approx(-0.912, abs=5e-3)
     assert pure_underwriting_threshold(p) == pytest.approx(0.3825, abs=5e-3)

@@ -1,6 +1,6 @@
 # Correlation Ambiguity, Diversification Fragility, and Insurance Pricing
 
-Replication of selected experiments from **Peiyun Deng and Shunzhi Pang,
+Replication of six experiments from **Peiyun Deng and Shunzhi Pang,
 "Correlation Ambiguity, Diversification Fragility, and Insurance Pricing"
 (2026)**.
 

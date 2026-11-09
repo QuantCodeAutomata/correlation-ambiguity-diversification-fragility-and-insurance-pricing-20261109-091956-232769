@@ -1,6 +1,6 @@
 # Results
 
-Replication of selected experiments from Peiyun Deng and Shunzhi Pang,
+Replication of six experiments from Peiyun Deng and Shunzhi Pang,
 "Correlation Ambiguity, Diversification Fragility, and Insurance Pricing"
 (2026).
 
@@ -210,8 +210,9 @@ consistent with the paper's own ambiguous sign convention at that table
   performance with an expanding (growing-window, insurer-fixed-effect plus
   quarter-mean) model fitted only on strictly prior quarters, and scales the
   resulting forecast errors (not the raw claims-performance level) by their
-  preceding 20-quarter rolling standard deviation, per the uncertainty noted
-  in the experiment specification; the aggregation across insurers is a
+  preceding 20-quarter rolling standard deviation, since footnote 1 states
+  this scaling for the forecast errors without giving the exact forecasting
+  equation; the aggregation across insurers is a
   weighted average (not a weighted sum) using positive lagged admitted-asset
   weights, normalized to sum to one each quarter.
 * **Experiment 6 sign table.** The paper's own description of Figure 5.5
