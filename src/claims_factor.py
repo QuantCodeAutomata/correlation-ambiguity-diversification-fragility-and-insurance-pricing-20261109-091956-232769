@@ -111,7 +111,7 @@ def aggregate_claims_performance_factor(
         weights = group["lagged_assets"]
         return float(np.average(group["scaled_error"], weights=weights))
 
-    factor = df.groupby("quarter").apply(_weighted_mean)
+    factor = df.groupby("quarter").apply(_weighted_mean, include_groups=False)
     factor.name = "claims_performance_factor"
     return factor.sort_index()
 
